@@ -8,8 +8,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#161517] h-[144px] text-white ">
-      <div className="flex items-center h-full justify-between w-[85%] mx-auto">
+    <nav className="bg-[#161517] h-[144px] text-white fixed  top-0 w-full  ">
+      <div className="flex items-center  h-full justify-between w-[85%] mx-auto">
         <div className="text-2xl lg:text-4xl font-medium md:text-3xl">
           LV Constructions
         </div>

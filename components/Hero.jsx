@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="bg-[#161517] h-full text-white">
+    <section className="bg-[#161517] h-full text-white mt-[144px]">
       <div className="flex w-[85%] mx-auto flex-col">
-        <div className="flex gap-2 overflow-auto  mx-auto mt-12">
+        <div className="flex gap-2 overflow-auto  mx-auto ">
           <Image src={home1} alt="Interior Design" height={800} width={400} />
           <Image
             src="/home-6.jpg"
