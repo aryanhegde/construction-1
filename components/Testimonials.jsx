@@ -13,10 +13,11 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <div key={testimonial.id} className="flex flex-col">
               <h5 className="text-slate-200">"{testimonial.comment}"</h5>
-              <h6 className="my-6">- {testimonial.author}</h6>
+              <h6 className="my-6 ">- {testimonial.author}</h6>
             </div>
           ))}
         </div>
+        <div className="mb-24" />
       </div>
     </section>
   );
